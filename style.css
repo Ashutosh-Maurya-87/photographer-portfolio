@@ -18,7 +18,7 @@ a {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(./assest/slide\ image\ 1.jpg);
+  background: url(./assets/slide_image_1.jpg);
   /* background: url(https://images.pexels.com/photos/206395/pexels-photo-206395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
   background-size: cover;
   animation: slideImage 10s infinite 5s;
@@ -26,17 +26,17 @@ a {
 
 @keyframes slideImage {
   0% {
-    background: url(./assest/slide\ image\ 1.jpg);
+    background: url(./assets/slide_image_2.webp);
     background-size: cover;
     background-repeat: no-repeat;
   }
   50% {
-    background: url(./assest/slide\ image\ 2.webp);
+    background: url(./assets/slide_image_2.webp);
     background-size: cover;
     background-repeat: no-repeat;
   }
   100% {
-    background: url(./assest/slide\ image\ 1.jpg);
+    background: url(./assets/slide_image_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -225,26 +225,26 @@ nav ul li a:hover:after {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(./assest/firstimage3.jpg);
+  background-image: url(./assets/firstimage3.jpg);
   animation: slideImageInside 5s infinite ease-in-out;
   animation-direction: alternate;
 }
 
 @keyframes slideImageInside {
   0% {
-    background: url(./assest/full-image.jpg);
+    background: url(./assets/full-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     left: 0;
   }
   50% {
-    background: url(./assest/firstimage3.jpg);
+    background: url(./assets/firstimage3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     left: 100;
   }
   100% {
-    background: url(./assest//full-image1.jpg);
+    background: url(./assets//full-image1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     left: 0;
@@ -275,6 +275,30 @@ nav ul li a:hover:after {
 
 .button {
   color: white;
+}
+
+.full-slider {
+  width: 50%;
+  margin: auto;
+}
+
+.behind {
+  margin-top: 5%;
+}
+
+.behind_img {
+  box-shadow: -22px 18px 0px 8px lightgrey;
+}
+
+.behind-heading {
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 10%;
+  width: 37%;
+}
+
+.behind-para {
+  padding: 0 20px 0 100px;
 }
 
 /* footer style*/
